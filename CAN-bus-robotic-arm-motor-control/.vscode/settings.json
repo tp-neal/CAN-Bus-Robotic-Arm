@@ -16,6 +16,9 @@
     "--query-driver=/home/tyler/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
     "--compile-commands-dir=${workspaceFolder}/build"
   ],
-  "C_Cpp.default.configurationProvider": "ms-vscode.esp-idf-extension"
+  "C_Cpp.default.configurationProvider": "ms-vscode.esp-idf-extension",
+  "files.associations": {
+    "gpio_etm.h": "c"
+  }
 }
 
